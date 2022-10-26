@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header{
+    background-color: rgb(251, 103, 11);
+    height: 50px;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+/*INTESTAZIONE HEADER*/
+
+.padding-10{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    color: white; 
+}
+
+.col-header25{
+    width: 25%;
+}
+
+.col-header50{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*COL-HEADER*/
+.inline-list{
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 20px;
+}
+
+.flex-end{
+     display: flex;
+     justify-content: flex-end;
+}
+
+.fa-solid{
+    color: white;
+}
+
+/*MAIN*/
+.content{
+    height: 500px;
+   
+    margin: 5px;
+    position: relative;
+}
+
+.col-main{
+    width: calc(100%/3);
+    padding: 20px 0 10px 0;
+}
+
+.content img{
+    height: 500px;
+}
+
+/*HEART*/
+.white{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 20px;
+}
+
+.heart{
+    font-size: 20px;
+}
+
+/*MAIN*/
+.label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    background-color: red;
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    bottom:40px;
+    color: white;
+    font-size: 12px;
+}
+
+.green{
+    background-color: green;
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 53px;
+    bottom:40px;
+    color: white;
+    font-size: 12px;
+}
+
+/*DESCRIZIONE IMG*/
+.margin-10{
+    margin: 10px;
+}
+
+p{
+    font-size: 12px;
+    display: inline-block;
+}
+
+.euro{
+    font-size: 12px;
+}
+
+.eu-red{
+    color: red;
+}
+
+.eu-through{
+    text-decoration-line:line-through;
+}
+
+
+
+
+
